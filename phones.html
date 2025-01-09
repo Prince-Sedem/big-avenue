@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Device Store</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-900">
+   <!-- Header/Nav -->
+<header class="bg-blue-600">
+    <div class="max-w-7xl mx-auto px-4 py-6 flex justify-between items-center">
+      <h1 class="text-white text-3xl font-bold">Device Store</h1>
+      <nav class="space-x-6 hidden md:flex">
+        <a href="/" class="text-white hover:text-gray-300">Home</a>
+        <a href="/store" class="text-white hover:text-gray-300">Store</a>
+        <a href="/contact" class="text-white hover:text-gray-300">Contact</a>
+      </nav>
+      <!-- Mobile menu button -->
+      <button class="md:hidden text-white">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+        </svg>
+      </button>
+    </div>
+</header>
+<!-- Devices Page for Phones -->
+<section class="py-12 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-6">
+      <h2 class="text-4xl font-bold text-gray-800 mb-8">Phones</h2>
+  
+      <div id="devices" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+        <!-- Device Card (Example) -->
+        <div class="device-card p-6 bg-white rounded-lg shadow-lg hover:scale-105 transition-transform duration-300">
+          <h3 class="text-xl font-semibold text-gray-700">iPhone 13</h3>
+          <img src="path/to/iphone13.jpg" alt="iPhone 13" class="w-full h-48 object-cover mt-4 rounded-lg">
+          <p class="mt-2 text-gray-600">$799</p>
+        </div>
+        <!-- Repeat for other devices -->
+      </div>
+    </div>
+</section>
+<script src="script.js"></script>
+  
+  
+</body>
+</html>
