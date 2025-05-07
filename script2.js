@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const productPrice = button.getAttribute('data-price');
             
             // Construct the WhatsApp link
-            const phoneNumber = "23324755211";  // Your WhatsApp number
+            const phoneNumber = "233247552111";  // Your WhatsApp number
             const message = `Hi, I'm interested in buying the ${productName} for ${productPrice}.`;
             const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
             
